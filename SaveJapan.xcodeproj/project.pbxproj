@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		492773E9133F590F00D02733 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 492773E8133F590F00D02733 /* UIKit.framework */; };
+		492773EB133F590F00D02733 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 492773EA133F590F00D02733 /* Foundation.framework */; };
+		492773ED133F590F00D02733 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 492773EC133F590F00D02733 /* CoreGraphics.framework */; };
+		492773F3133F590F00D02733 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 492773F1133F590F00D02733 /* InfoPlist.strings */; };
+		492773F6133F590F00D02733 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 492773F5133F590F00D02733 /* main.m */; };
+		492773F9133F590F00D02733 /* SaveJapanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 492773F8133F590F00D02733 /* SaveJapanAppDelegate.m */; };
+		49277404133F668500D02733 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49277403133F668500D02733 /* LeftViewController.m */; };
+		49277407133F669C00D02733 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49277406133F669C00D02733 /* RightViewController.m */; };
+		4927740A1340C98700D02733 /* ColorPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 492774091340C98700D02733 /* ColorPickerController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		492773E4133F590F00D02733 /* SaveJapan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaveJapan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		492773E8133F590F00D02733 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		492773EA133F590F00D02733 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		492773EC133F590F00D02733 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		492773F0133F590F00D02733 /* SaveJapan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SaveJapan-Info.plist"; sourceTree = "<group>"; };
+		492773F2133F590F00D02733 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		492773F4133F590F00D02733 /* SaveJapan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SaveJapan-Prefix.pch"; sourceTree = "<group>"; };
+		492773F5133F590F00D02733 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		492773F7133F590F00D02733 /* SaveJapanAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SaveJapanAppDelegate.h; sourceTree = "<group>"; };
+		492773F8133F590F00D02733 /* SaveJapanAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaveJapanAppDelegate.m; sourceTree = "<group>"; };
+		49277402133F668500D02733 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		49277403133F668500D02733 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		49277405133F669C00D02733 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		49277406133F669C00D02733 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		492774081340C98700D02733 /* ColorPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorPickerController.h; path = ../../InstaTest/InstaTest/ColorPickerController.h; sourceTree = "<group>"; };
+		492774091340C98700D02733 /* ColorPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorPickerController.m; path = ../../InstaTest/InstaTest/ColorPickerController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		492773E1133F590F00D02733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492773E9133F590F00D02733 /* UIKit.framework in Frameworks */,
+				492773EB133F590F00D02733 /* Foundation.framework in Frameworks */,
+				492773ED133F590F00D02733 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		492773D9133F590F00D02733 = {
+			isa = PBXGroup;
+			children = (
+				492773EE133F590F00D02733 /* SaveJapan */,
+				492773E7133F590F00D02733 /* Frameworks */,
+				492773E5133F590F00D02733 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		492773E5133F590F00D02733 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				492773E4133F590F00D02733 /* SaveJapan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		492773E7133F590F00D02733 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				492773E8133F590F00D02733 /* UIKit.framework */,
+				492773EA133F590F00D02733 /* Foundation.framework */,
+				492773EC133F590F00D02733 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		492773EE133F590F00D02733 /* SaveJapan */ = {
+			isa = PBXGroup;
+			children = (
+				492774081340C98700D02733 /* ColorPickerController.h */,
+				492774091340C98700D02733 /* ColorPickerController.m */,
+				49277402133F668500D02733 /* LeftViewController.h */,
+				49277403133F668500D02733 /* LeftViewController.m */,
+				49277405133F669C00D02733 /* RightViewController.h */,
+				49277406133F669C00D02733 /* RightViewController.m */,
+				492773F7133F590F00D02733 /* SaveJapanAppDelegate.h */,
+				492773F8133F590F00D02733 /* SaveJapanAppDelegate.m */,
+				492773EF133F590F00D02733 /* Supporting Files */,
+			);
+			path = SaveJapan;
+			sourceTree = "<group>";
+		};
+		492773EF133F590F00D02733 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				492773F0133F590F00D02733 /* SaveJapan-Info.plist */,
+				492773F1133F590F00D02733 /* InfoPlist.strings */,
+				492773F4133F590F00D02733 /* SaveJapan-Prefix.pch */,
+				492773F5133F590F00D02733 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		492773E3133F590F00D02733 /* SaveJapan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 492773FF133F591000D02733 /* Build configuration list for PBXNativeTarget "SaveJapan" */;
+			buildPhases = (
+				492773E0133F590F00D02733 /* Sources */,
+				492773E1133F590F00D02733 /* Frameworks */,
+				492773E2133F590F00D02733 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaveJapan;
+			productName = SaveJapan;
+			productReference = 492773E4133F590F00D02733 /* SaveJapan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		492773DB133F590F00D02733 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 492773DE133F590F00D02733 /* Build configuration list for PBXProject "SaveJapan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 492773D9133F590F00D02733;
+			productRefGroup = 492773E5133F590F00D02733 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				492773E3133F590F00D02733 /* SaveJapan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		492773E2133F590F00D02733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492773F3133F590F00D02733 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		492773E0133F590F00D02733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492773F6133F590F00D02733 /* main.m in Sources */,
+				492773F9133F590F00D02733 /* SaveJapanAppDelegate.m in Sources */,
+				49277404133F668500D02733 /* LeftViewController.m in Sources */,
+				49277407133F669C00D02733 /* RightViewController.m in Sources */,
+				4927740A1340C98700D02733 /* ColorPickerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		492773F1133F590F00D02733 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				492773F2133F590F00D02733 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		492773FD133F591000D02733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		492773FE133F591000D02733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		49277400133F591000D02733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaveJapan/SaveJapan-Prefix.pch";
+				INFOPLIST_FILE = "SaveJapan/SaveJapan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		49277401133F591000D02733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaveJapan/SaveJapan-Prefix.pch";
+				INFOPLIST_FILE = "SaveJapan/SaveJapan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		492773DE133F590F00D02733 /* Build configuration list for PBXProject "SaveJapan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492773FD133F591000D02733 /* Debug */,
+				492773FE133F591000D02733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		492773FF133F591000D02733 /* Build configuration list for PBXNativeTarget "SaveJapan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49277400133F591000D02733 /* Debug */,
+				49277401133F591000D02733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 492773DB133F590F00D02733 /* Project object */;
+}
